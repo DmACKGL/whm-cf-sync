@@ -1,0 +1,26 @@
+{
+  "name": "whm-cf-sync",
+  "version": "1.0.0",
+  "description": "Sync DNS para cPanel (WHM API)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DmACKGL/whm-cf-sync.git"
+  },
+  "author": "Franco Sanllehi <franco@fsanllehi.me>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/DmACKGL/whm-cf-sync/issues"
+  },
+  "homepage": "https://github.com/DmACKGL/whm-cf-sync#readme",
+  "dependencies": {
+    "mysql": "github:mysqljs/mysql",
+    "npm": "^6.1.0",
+    "request": "^2.87.0",
+    "request-parse-json": "^1.1.0",
+    "system-sleep": "^1.3.6"
+  }
+}
